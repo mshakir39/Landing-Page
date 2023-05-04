@@ -1,0 +1,1 @@
+export const items = ["Product Design", "MVP development", "IP protection", "Internet of things", "Work process", "Dedicated Support"]
