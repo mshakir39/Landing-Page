@@ -75,7 +75,7 @@ export default function NavBar() {
               ))}
             </ul>
             <button
-              className='bg-secondary-color text-white rounded-3xl h-[40px] pl-[25px] pr-[25px] shadow-xl w-max whitespace-nowrap
+              className='bg-secondary-color text-white rounded-3xl md:mt-0 mt-[20px] h-[40px] pl-[25px] pr-[25px] shadow-xl w-max whitespace-nowrap
             '
             >
               Start working with us

@@ -1,10 +1,14 @@
 import React from 'react';
 import { FiInstagram, FiLinkedin, FiGithub, FiFacebook } from 'react-icons/fi';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { BsGithub } from 'react-icons/bs';
+import { RiInstagramFill } from 'react-icons/ri';
+
 import Link from 'next/link';
 
 function footer() {
   return (
-    <div className='md:flex-col md:flex justify-center items-center bg-primary-color '>
+    <div className='md:flex-col md:flex justify-center items-center bg-[#716ee5] '>
       <div className=' md:w-[1024px] md:flex  md:pl-0 md:pr-0 pl-[16px] pr-[16px] justify-between items-start mt-20'>
         <div className='md:w[55%] md:flex md:flex-col'>
           <h1 className='mb-[50px] text-white text-3xl font-bold pt-10'>
@@ -62,10 +66,18 @@ function footer() {
             </div>
             <div className='md:w-[50%]'>
               <div className='flex md:justify-around justify-evenly'>
-                <FiInstagram />
-                <FiLinkedin />
-                <FiGithub />
-                <FiFacebook />
+                <a href='#'>
+                  <RiInstagramFill style={{ color: '#b720b0' }} />
+                </a>
+                <a href='#'>
+                  <FaLinkedinIn style={{ color: '#0c0c69' }} />
+                </a>
+                <a href='#'>
+                  <BsGithub />
+                </a>
+                <a href='#'>
+                  <FaFacebookF style={{ color: '#0c0c69' }} />
+                </a>
               </div>
             </div>
           </div>
